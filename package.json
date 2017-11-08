@@ -2,6 +2,7 @@
   "name": "blog",
   "version": "0.1.0",
   "private": true,
+  "homepage": "imgr4y.github.io/blog",
   "dependencies": {
     "axios": "^0.16.2",
     "babel-core": "^6.25.0",
@@ -13,6 +14,7 @@
     "css-loader": "^0.28.4",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.11.2",
+    "gh-pages": "^1.0.0",
     "html-webpack-plugin": "^2.29.0",
     "lost": "^8.2.0",
     "node-sass": "^4.5.3",
@@ -33,8 +35,9 @@
     "webpack": "^2.4.1"
   },
   "scripts": {
-    "start": "pm2 start ./src/javascript/index.js",
-    "restart": "pm2 restart all",    
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",    
     "build": "NODE_ENV=production webpack",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
