@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  // a {
+  //   color: black;
+  // }
+  a:hover {
+    cursor: crosshair;
+    color: pink;
+
+  }
+  
+}
+body {
+  background: white;  
+}
+ul {
+  list-style: disc;
+}
+li {
+  margin-bottom: 10px;
+  font-family: 'Slabo 13px', serif;
+  font-size: 13px;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  font-family: 'Slabo 13px', serif;
+  font-size: 13px;
+  margin-bottom: 10px;
+  a:hover {
+    cursor: crosshair;
+    color: pink;
+
+  }
+}
+
+h6 {
+  font-family: 'Slabo 13px', serif;;
+  font-size: 13px;
+  a:hover{
+    color: pink;
+  }
+}
+
+h4 {
+  font-family: 'Lato', sans-serif;
+  
+}
+
+h3 {
+  font-family: 'Slabo 13px', serif;;
+  
+}
+
+h2 {
+  font-size: 1em;
+  font-family: 'Slabo 13px', serif;;
+  max-width: 500px;
+  margin-right: 500px;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  display: block;
+  font-size: 2em;
+  -webkit-margin-before: 0.67em;
+  -webkit-margin-after: 0.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+
+.header {
+  max-width: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 200px;
+}
+
+.btn {
+  color: white;
+  // background: transparent;
+  padding: 5px 7px 4px;
+  border: 2px, black, solid;
+  border-radius: 3px;
+  border: 0;
+  margin-top: 20px;
+}

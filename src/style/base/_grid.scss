@@ -1,0 +1,15 @@
+@lost flexbox flex;
+
+.container {
+  lost-center: 1100px;
+  padding: 0 20px;
+
+  &.small {
+    lost-center: 700px;
+  }
+
+  &.full {
+    lost-center: 100%;
+    padding: 0;
+  }
+}

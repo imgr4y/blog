@@ -1,0 +1,36 @@
+nav, footer {
+  align-items: center;
+  display: flex;
+  height: 250px;
+  font-family: 'Lato', sans-serif;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+  }
+}
+
+#header-links {
+  border-bottom: 2px solid gray;
+}
+
+#header-links, #footer-links {
+  margin-left: 30px;
+  border-bottom: 2px solid #c3c3c3;
+
+    &:hover {
+      border-bottom: 2px solid pink;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .nav-title {
+    margin-bottom: 50px;
+  }
+  .links-left {
+    align-content: left;
+  }
+
+}
