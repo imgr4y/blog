@@ -1,48 +1,48 @@
 webpackJsonp([0],{
 
-/***/ 137:
+/***/ 147:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _react = __webpack_require__(4);
+var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(77);
+var _reactDom = __webpack_require__(82);
 
 var _reactRouterDom = __webpack_require__(14);
 
-var _app = __webpack_require__(173);
+var _app = __webpack_require__(188);
 
 var _app2 = _interopRequireDefault(_app);
 
-var _Nav = __webpack_require__(158);
+var _Nav = __webpack_require__(168);
 
 var _Nav2 = _interopRequireDefault(_Nav);
 
-var _Footer = __webpack_require__(157);
+var _Footer = __webpack_require__(167);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
-var _Home = __webpack_require__(161);
+var _Home = __webpack_require__(171);
 
 var _Home2 = _interopRequireDefault(_Home);
 
-var _Contact = __webpack_require__(160);
+var _Contact = __webpack_require__(170);
 
 var _Contact2 = _interopRequireDefault(_Contact);
 
-var _Oscp = __webpack_require__(162);
+var _Oscp = __webpack_require__(172);
 
 var _Oscp2 = _interopRequireDefault(_Oscp);
 
-var _Blog = __webpack_require__(159);
+var _Blog = __webpack_require__(169);
 
 var _Blog2 = _interopRequireDefault(_Blog);
 
-var _Post = __webpack_require__(163);
+var _Post = __webpack_require__(173);
 
 var _Post2 = _interopRequireDefault(_Post);
 
@@ -80,7 +80,7 @@ var Root = function Root() {
 
 /***/ }),
 
-/***/ 157:
+/***/ 167:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -90,7 +90,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(4);
+var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -128,7 +128,7 @@ exports.default = Footer;
 
 /***/ }),
 
-/***/ 158:
+/***/ 168:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -138,7 +138,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(4);
+var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -191,7 +191,7 @@ exports.default = Nav;
 
 /***/ }),
 
-/***/ 159:
+/***/ 169:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -203,17 +203,17 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(4);
+var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(14);
 
-var _Card = __webpack_require__(83);
+var _Card = __webpack_require__(88);
 
 var _Card2 = _interopRequireDefault(_Card);
 
-var _posts = __webpack_require__(46);
+var _posts = __webpack_require__(47);
 
 var _posts2 = _interopRequireDefault(_posts);
 
@@ -267,7 +267,7 @@ exports.default = Index;
 
 /***/ }),
 
-/***/ 160:
+/***/ 170:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -279,7 +279,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(4);
+var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -305,7 +305,7 @@ var Contact = function (_React$Component) {
   _createClass(Contact, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
-      document.title = 'Contact Me';
+      document.title = 'gr4y.me | contact me';
     }
   }, {
     key: 'render',
@@ -344,7 +344,7 @@ exports.default = Contact;
 
 /***/ }),
 
-/***/ 161:
+/***/ 171:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -356,17 +356,17 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(4);
+var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(14);
 
-var _Card = __webpack_require__(83);
+var _Card = __webpack_require__(88);
 
 var _Card2 = _interopRequireDefault(_Card);
 
-var _posts = __webpack_require__(46);
+var _posts = __webpack_require__(47);
 
 var _posts2 = _interopRequireDefault(_posts);
 
@@ -442,7 +442,7 @@ exports.default = Index;
 
 /***/ }),
 
-/***/ 162:
+/***/ 172:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -454,7 +454,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(4);
+var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -480,7 +480,7 @@ var Oscp = function (_React$Component) {
   _createClass(Oscp, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
-      document.title = 'oscp links';
+      document.title = 'gr4y.me | oscp links';
     }
   }, {
     key: 'render',
@@ -501,7 +501,7 @@ var Oscp = function (_React$Component) {
             null,
             _react2.default.createElement(
               _reactRouterDom.Link,
-              { to: '/post/jan0818' },
+              { to: '/post/jan2218' },
               ' day 1'
             )
           ),
@@ -535,7 +535,7 @@ exports.default = Oscp;
 
 /***/ }),
 
-/***/ 163:
+/***/ 173:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -547,7 +547,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(4);
+var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -557,7 +557,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _reactRouterDom = __webpack_require__(14);
 
-var _posts = __webpack_require__(46);
+var _posts = __webpack_require__(47);
 
 var _posts2 = _interopRequireDefault(_posts);
 
@@ -701,7 +701,7 @@ exports.default = Post;
 
 /***/ }),
 
-/***/ 164:
+/***/ 174:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -711,7 +711,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(4);
+var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -775,65 +775,245 @@ exports.default = Jan2218;
 
 /***/ }),
 
-/***/ 173:
+/***/ 175:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(3);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Nov0817 = function Nov0817() {
+  return _react2.default.createElement(
+    "div",
+    null,
+    _react2.default.createElement(
+      "section",
+      { className: "container full" },
+      _react2.default.createElement(
+        "h1",
+        null,
+        "aaaaahhhhhhhhhhh"
+      )
+    )
+  );
+};
+
+exports.default = Nov0817;
+
+/***/ }),
+
+/***/ 176:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(3);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Nov0917 = function Nov0917() {
+  return _react2.default.createElement(
+    "div",
+    null,
+    _react2.default.createElement(
+      "section",
+      { className: "container full" },
+      _react2.default.createElement(
+        "h1",
+        null,
+        "aaaaahhhhhhhhhhh"
+      )
+    )
+  );
+};
+
+exports.default = Nov0917;
+
+/***/ }),
+
+/***/ 177:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(3);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Nov1017 = function Nov1017() {
+  return _react2.default.createElement(
+    "div",
+    null,
+    _react2.default.createElement(
+      "section",
+      { className: "container full" },
+      _react2.default.createElement(
+        "h1",
+        null,
+        "aaaaahhhhhhhhhhh"
+      )
+    )
+  );
+};
+
+exports.default = Nov1017;
+
+/***/ }),
+
+/***/ 178:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(3);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Nov1117 = function Nov1117() {
+  return _react2.default.createElement(
+    "div",
+    null,
+    _react2.default.createElement(
+      "section",
+      { className: "container full" },
+      _react2.default.createElement(
+        "h1",
+        null,
+        "aaaaahhhhhhhhhhh"
+      )
+    )
+  );
+};
+
+exports.default = Nov1117;
+
+/***/ }),
+
+/***/ 179:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(3);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Nov1317 = function Nov1317() {
+  return _react2.default.createElement(
+    "div",
+    null,
+    _react2.default.createElement(
+      "section",
+      { className: "container full" },
+      _react2.default.createElement(
+        "h1",
+        null,
+        "aaaaahhhhhhhhhhh"
+      )
+    )
+  );
+};
+
+exports.default = Nov1317;
+
+/***/ }),
+
+/***/ 188:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 188:
+/***/ 203:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "src/img/nov0717/feature-large.a0bca.jpg";
+module.exports = __webpack_require__.p + "src/img/jan2218/feature-large.a0bca.jpg";
 
 /***/ }),
 
-/***/ 189:
+/***/ 204:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "src/img/nov0817/feature-large.2ec32.jpg";
 
 /***/ }),
 
-/***/ 190:
+/***/ 205:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "src/img/nov0917/feature-large.ca31b.jpg";
 
 /***/ }),
 
-/***/ 191:
+/***/ 206:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "src/img/nov1017/feature-large.0b38f.jpg";
 
 /***/ }),
 
-/***/ 192:
+/***/ 207:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "src/img/nov1117/feature-large.5233a.jpg";
 
 /***/ }),
 
-/***/ 193:
+/***/ 208:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "src/img/nov1317/feature-large.5144a.jpg";
 
 /***/ }),
 
-/***/ 340:
+/***/ 355:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./nov0717/feature-large.jpg": 188,
-	"./nov0817/feature-large.jpg": 189,
-	"./nov0917/feature-large.jpg": 190,
-	"./nov1017/feature-large.jpg": 191,
-	"./nov1117/feature-large.jpg": 192,
-	"./nov1317/feature-large.jpg": 193
+	"./jan2218/feature-large.jpg": 203,
+	"./nov0817/feature-large.jpg": 204,
+	"./nov0917/feature-large.jpg": 205,
+	"./nov1017/feature-large.jpg": 206,
+	"./nov1117/feature-large.jpg": 207,
+	"./nov1317/feature-large.jpg": 208
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -849,19 +1029,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 340;
+webpackContext.id = 355;
 
 /***/ }),
 
-/***/ 342:
+/***/ 357:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(137);
+module.exports = __webpack_require__(147);
 
 
 /***/ }),
 
-/***/ 46:
+/***/ 47:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -872,29 +1052,29 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.recentPosts = undefined;
 
-var _react = __webpack_require__(4);
+var _react = __webpack_require__(3);
 
-var _Jan = __webpack_require__(164);
+var _Jan = __webpack_require__(174);
 
 var _Jan2 = _interopRequireDefault(_Jan);
 
-var _Nov = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../posts/nov2017/Nov0817\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var _Nov = __webpack_require__(175);
 
 var _Nov2 = _interopRequireDefault(_Nov);
 
-var _Nov3 = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../posts/nov2017/Nov0917\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var _Nov3 = __webpack_require__(176);
 
 var _Nov4 = _interopRequireDefault(_Nov3);
 
-var _Nov5 = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../posts/nov2017/Nov1017\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var _Nov5 = __webpack_require__(177);
 
 var _Nov6 = _interopRequireDefault(_Nov5);
 
-var _Nov7 = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../posts/nov2017/Nov1117\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var _Nov7 = __webpack_require__(178);
 
 var _Nov8 = _interopRequireDefault(_Nov7);
 
-var _Nov9 = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../posts/nov2017/Nov1317\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var _Nov9 = __webpack_require__(179);
 
 var _Nov10 = _interopRequireDefault(_Nov9);
 
@@ -962,7 +1142,7 @@ exports.default = [
 
 /***/ }),
 
-/***/ 83:
+/***/ 88:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -974,7 +1154,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _react = __webpack_require__(4);
+var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -996,7 +1176,7 @@ var Card = function Card(_ref) {
       to: '/post/' + post.slug,
       key: post.title,
       style: {
-        backgroundImage: 'url(https://raw.githubusercontent.com/imgr4y/blog/master' + __webpack_require__(340)("./" + post.slug + '/feature-' + size + '.jpg') + ')',
+        backgroundImage: 'url(https://raw.githubusercontent.com/imgr4y/blog/master' + __webpack_require__(355)("./" + post.slug + '/feature-' + size + '.jpg') + ')',
         backgroundPosition: 'center',
         backgroundSize: 'cover'
       }
@@ -1034,5 +1214,5 @@ exports.default = Card;
 
 /***/ })
 
-},[342]);
-//# sourceMappingURL=app.e922c417dc75267e5f84.js.map
+},[357]);
+//# sourceMappingURL=app.6f4517be4f8085e4b0f8.js.map
