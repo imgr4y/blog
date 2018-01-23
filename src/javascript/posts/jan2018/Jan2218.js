@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Nov0717 = () => 
+const Jan2218 = () => 
   <div>
     <section className="container full">
       <p>hello! today marks my first day of dropping everything else in my life so that i can study for the OSCP!</p>

@@ -10,7 +10,7 @@ const hashFile = isProd ? '[name].[hash:5]' : '[name]';
 
 const htmlConfig = {
   title: 'gr4y.me',
-  favicon: 'https://raw.githubusercontent.com/imgr4y/blog/master/src/img/favicon.ico',
+  // favicon: 'https://raw.githubusercontent.com/imgr4y/blog/master/src/img/favicon.ico',
   template: 'src/index.ejs',
 };
 
