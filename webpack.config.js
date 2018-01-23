@@ -10,7 +10,7 @@ const hashFile = isProd ? '[name].[hash:5]' : '[name]';
 
 const htmlConfig = {
   title: 'gr4y.me',
-  favicon: 'src/img/favicon.ico',
+  favicon: 'https://raw.githubusercontent.com/imgr4y/blog/master/src/img/favicon.ico',
   template: 'src/index.ejs',
 };
 
@@ -20,9 +20,9 @@ const htmlConfig404 = Object.assign({}, htmlConfig, {
 
 const routes = [
   '/',
-  '/blog',
-  '/oscp',
-  '/contact',
+  '/blog/',
+  '/oscp/',
+  '/contact/',
 
   
 ];

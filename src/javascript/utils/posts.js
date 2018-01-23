@@ -1,6 +1,6 @@
 import { createFactory } from 'react';
 
-import Nov0717 from '../posts/nov2017/Nov0717';
+import Jan2218 from '../posts/jan2018/Jan2218';
 import Nov0817 from '../posts/nov2017/Nov0817';
 import Nov0917 from '../posts/nov2017/Nov0917';
 import Nov1017 from '../posts/nov2017/Nov1017';
@@ -64,9 +64,9 @@ export default [
   // },
   {
     title: 'day 1: intro',
-    date: '11.07.2017',
-    loadComponent: createFactory(Nov0717),
-    slug: 'nov0717',
+    date: '01.22.2017',
+    loadComponent: createFactory(Jan2218),
+    slug: 'jan2218',
     order: 2,
     properties: { className: 'black' }
   },

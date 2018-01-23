@@ -8,9 +8,9 @@ const Nav = () =>
         <NavLink to="/" exact id="header-links" id="title-link">gr4y.me</NavLink>
       </aside>
       <aside className="link-border links-left">
-        <NavLink to="/blog" id="header-links">blog</NavLink>
-        <NavLink to="/oscp" id="header-links">oscp journey</NavLink>
-        <NavLink to="/contact" className="nav-contact-btn" id="header-links">contact</NavLink>
+        <NavLink to="/blog/" id="header-links">blog</NavLink>
+        <NavLink to="/oscp/" id="header-links">oscp journey</NavLink>
+        <NavLink to="/contact/" className="nav-contact-btn" id="header-links">contact</NavLink>
       </aside>
     </section>
   </nav>

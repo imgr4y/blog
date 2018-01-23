@@ -8,7 +8,7 @@ const Card = ({ post, className, size }) =>
       to={`/post/${post.slug}`}
       key={post.title}
       style={{
-        backgroundImage: `url(${require(`img/${post.slug}/feature-${size}.jpg`)})`,
+        backgroundImage: `url(https://raw.githubusercontent.com/imgr4y/blog/master${require(`img/${post.slug}/feature-${size}.jpg`)})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover'
       }}
