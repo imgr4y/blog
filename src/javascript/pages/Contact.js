@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default class Contact extends React.Component {
   componentDidMount() {
-    document.title = 'Contact Me';
+    document.title = 'gr4y.me | contact me';
   }
 
   render() {
