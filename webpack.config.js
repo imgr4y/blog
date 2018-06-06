@@ -51,7 +51,7 @@ module.exports = {
 
   output: {
     filename: `javascript/${chunkFile}.js`,
-    path: path.join(__dirname, 'blog'),
+    path: path.join(__dirname, 'dist'),
     publicPath: '/',
   },
 
