@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default class Oscp extends React.Component {
   componentDidMount() {
-    document.title = 'oscp links';
+    document.title = 'gr4y.me | oscp links';
   }
 
   render() {

@@ -72,7 +72,7 @@ export default class Post extends React.Component {
                             <div>
                                 {this.state.component()}
                                 
-                                <Link to="/blog" className="btn"><h4 className="col-1-of-1 headline">&#8592; back</h4></Link> 
+                                <Link to="/blog/" className="btn"><h4 className="col-1-of-1 headline">&#8592; back</h4></Link> 
                             </div>
                         </div>
     
