@@ -305,7 +305,7 @@ var Contact = function (_React$Component) {
   _createClass(Contact, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
-      document.title = 'Contact Me';
+      document.title = 'gr4y.me | contact me';
     }
   }, {
     key: 'render',
@@ -480,7 +480,7 @@ var Oscp = function (_React$Component) {
   _createClass(Oscp, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
-      document.title = 'oscp links';
+      document.title = 'gr4y.me | oscp links';
     }
   }, {
     key: 'render',
@@ -650,7 +650,7 @@ var Post = function (_React$Component) {
                                 _this.state.component(),
                                 _react2.default.createElement(
                                     _reactRouterDom.Link,
-                                    { to: '/blog', className: 'btn' },
+                                    { to: '/blog/', className: 'btn' },
                                     _react2.default.createElement(
                                         'h4',
                                         { className: 'col-1-of-1 headline' },
@@ -962,78 +962,7 @@ exports.default = Nov1317;
 
 /***/ }),
 
-/***/ 193:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "src/img/nov0717/feature-large.a0bca.jpg";
-
-/***/ }),
-
-/***/ 194:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "src/img/nov0817/feature-large.2ec32.jpg";
-
-/***/ }),
-
-/***/ 195:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "src/img/nov0917/feature-large.ca31b.jpg";
-
-/***/ }),
-
-/***/ 196:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "src/img/nov1017/feature-large.0b38f.jpg";
-
-/***/ }),
-
-/***/ 197:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "src/img/nov1117/feature-large.5233a.jpg";
-
-/***/ }),
-
-/***/ 198:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "src/img/nov1317/feature-large.5144a.jpg";
-
-/***/ }),
-
-/***/ 345:
-/***/ (function(module, exports, __webpack_require__) {
-
-var map = {
-	"./nov0717/feature-large.jpg": 193,
-	"./nov0817/feature-large.jpg": 194,
-	"./nov0917/feature-large.jpg": 195,
-	"./nov1017/feature-large.jpg": 196,
-	"./nov1117/feature-large.jpg": 197,
-	"./nov1317/feature-large.jpg": 198
-};
-function webpackContext(req) {
-	return __webpack_require__(webpackContextResolve(req));
-};
-function webpackContextResolve(req) {
-	var id = map[req];
-	if(!(id + 1)) // check for number or string
-		throw new Error("Cannot find module '" + req + "'.");
-	return id;
-};
-webpackContext.keys = function webpackContextKeys() {
-	return Object.keys(map);
-};
-webpackContext.resolve = webpackContextResolve;
-module.exports = webpackContext;
-webpackContext.id = 345;
-
-/***/ }),
-
-/***/ 347:
+/***/ 340:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(137);
@@ -1080,64 +1009,68 @@ var _Nov12 = _interopRequireDefault(_Nov11);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var recentPosts = exports.recentPosts = [
-// {
-//   title: 'day 6',
-//   date: '11.13.2017',
-//   loadComponent: createFactory(Nov1317),
-//   slug: 'nov1317',
-//   order: 2,
-//   properties: { className: 'white' }
-// },
-{
+var recentPosts = exports.recentPosts = [{
+  title: 'day 6',
+  date: '11.13.2017',
+  loadComponent: (0, _react.createFactory)(_Nov12.default),
+  slug: 'nov1317',
+  order: 2,
+  properties: { className: 'black' },
+  imageUrl: 'https://i.imgur.com/VVVQWjB.jpg'
+}, {
   title: 'day 1: intro',
   date: '11.07.2017',
   loadComponent: (0, _react.createFactory)(_Nov2.default),
   slug: 'nov0717',
   order: 1,
-  properties: { className: 'black' }
+  properties: { className: 'white' },
+  imageUrl: 'https://i.imgur.com/VVVQWjB.jpg'
 }];
 
-exports.default = [
-// {
-//   title: 'day 5',
-//   date: '11.11.2017',
-//   loadComponent: createFactory(Nov1117),
-//   slug: 'nov1117',
-//   order: 4,
-//   properties: { className: 'white' }
-// },
-// {
-//   title: 'day 4',
-//   date: '11.10.2017',
-//   loadComponent: createFactory(Nov1017),
-//   slug: 'nov1017',
-//   order: 3,
-//   properties: { className: 'white' }
-// },
-// {
-//   title: 'day 3',
-//   date: '11.09.2017',
-//   loadComponent: createFactory(Nov0917),
-//   slug: 'nov0917',
-//   order: 0,
-//   properties: { className: 'grey' }
-// },
-// {
-//   title: 'day 2',
-//   date: '11.08.2017',
-//   loadComponent: createFactory(Nov0817),
-//   slug: 'nov0817',
-//   order: 1,
-//   properties: { className: 'white' }
-// },
-{
+exports.default = [{
+  title: 'day 5',
+  date: '11.11.2017',
+  loadComponent: (0, _react.createFactory)(_Nov10.default),
+  slug: 'nov1117',
+  order: 4,
+  properties: { className: 'white' },
+  imageUrl: 'https://i.imgur.com/VVVQWjB.jpg'
+}, {
+  title: 'day 4',
+  date: '11.10.2017',
+  loadComponent: (0, _react.createFactory)(_Nov8.default),
+  slug: 'nov1017',
+  order: 3,
+  properties: { className: 'white' },
+  imageUrl: 'https://i.imgur.com/VVVQWjB.jpg'
+
+}, {
+  title: 'day 3',
+  date: '11.09.2017',
+  loadComponent: (0, _react.createFactory)(_Nov6.default),
+  slug: 'nov0917',
+  order: 0,
+  properties: { className: 'grey' },
+  imageUrl: 'https://i.imgur.com/VVVQWjB.jpg'
+
+}, {
+  title: 'day 2',
+  date: '11.08.2017',
+  loadComponent: (0, _react.createFactory)(_Nov4.default),
+  slug: 'nov0817',
+  order: 1,
+  properties: { className: 'white' },
+  imageUrl: 'https://i.imgur.com/VVVQWjB.jpg'
+
+}, {
   title: 'day 1: intro',
   date: '11.07.2017',
   loadComponent: (0, _react.createFactory)(_Nov2.default),
   slug: 'nov0717',
   order: 2,
-  properties: { className: 'black' }
+  properties: { className: 'black' },
+  imageUrl: 'https://i.imgur.com/VVVQWjB.jpg'
+
 }];
 
 /***/ }),
@@ -1176,7 +1109,7 @@ var Card = function Card(_ref) {
       to: '/post/' + post.slug,
       key: post.title,
       style: {
-        backgroundImage: 'url(' + __webpack_require__(345)("./" + post.slug + '/feature-' + size + '.jpg') + ')',
+        backgroundImage: 'url(' + post.imageUrl + ')',
         backgroundPosition: 'center',
         backgroundSize: 'cover'
       }
@@ -1214,5 +1147,5 @@ exports.default = Card;
 
 /***/ })
 
-},[347]);
-//# sourceMappingURL=app.988bcae15ab062899c6c.js.map
+},[340]);
+//# sourceMappingURL=app.9ed5400ed08957d376a6.js.map
