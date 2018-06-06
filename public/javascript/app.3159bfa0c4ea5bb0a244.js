@@ -6,7 +6,7 @@ webpackJsonp([0],{
 "use strict";
 
 
-var _react = __webpack_require__(3);
+var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -14,7 +14,7 @@ var _reactDom = __webpack_require__(77);
 
 var _reactRouterDom = __webpack_require__(14);
 
-var _app = __webpack_require__(178);
+var _app = __webpack_require__(177);
 
 var _app2 = _interopRequireDefault(_app);
 
@@ -90,7 +90,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(3);
+var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -138,7 +138,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(3);
+var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -203,7 +203,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(3);
+var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -279,7 +279,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(3);
+var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -319,13 +319,7 @@ var Contact = function (_React$Component) {
           _react2.default.createElement(
             'p',
             null,
-            'my ',
-            _react2.default.createElement(
-              'a',
-              { href: 'https://twitter.com/imgr4y' },
-              'twitter'
-            ),
-            ' dms are open, but feel free to email me here:'
+            'email:'
           ),
           _react2.default.createElement(
             'p',
@@ -356,7 +350,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(3);
+var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -454,7 +448,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(3);
+var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -522,6 +516,24 @@ var Oscp = function (_React$Component) {
               { to: '/post/nov0917' },
               ' day 3'
             )
+          ),
+          _react2.default.createElement(
+            'h6',
+            null,
+            _react2.default.createElement(
+              _reactRouterDom.Link,
+              { to: '/post/nov1017' },
+              ' day 4'
+            )
+          ),
+          _react2.default.createElement(
+            'h6',
+            null,
+            _react2.default.createElement(
+              _reactRouterDom.Link,
+              { to: '/post/nov1117' },
+              ' day 5'
+            )
           )
         )
       );
@@ -547,7 +559,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(3);
+var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -711,7 +723,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(3);
+var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -785,7 +797,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(3);
+var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -799,9 +811,14 @@ var Nov0817 = function Nov0817() {
       "section",
       { className: "container full" },
       _react2.default.createElement(
-        "h1",
+        "p",
         null,
-        "aaaaahhhhhhhhhhh"
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies maximus sapien vel porta. Donec sit amet nunc purus. Phasellus ipsum nulla, consequat id lacus ac, tempus convallis risus. Integer vitae pulvinar enim. Pellentesque nunc sem, convallis vitae dui sit amet, iaculis ullamcorper leo. Proin vel libero non nisi molestie fermentum. Quisque ultricies lacinia viverra. Praesent sit amet auctor mauris. Nam blandit gravida sem, vel finibus velit rhoncus at."
+      ),
+      _react2.default.createElement(
+        "p",
+        null,
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies maximus sapien vel porta. Donec sit amet nunc purus. Phasellus ipsum nulla, consequat id lacus ac, tempus convallis risus. Integer vitae pulvinar enim. Pellentesque nunc sem, convallis vitae dui sit amet, iaculis ullamcorper leo. Proin vel libero non nisi molestie fermentum. Quisque ultricies lacinia viverra. Praesent sit amet auctor mauris. Nam blandit gravida sem, vel finibus velit rhoncus at."
       )
     )
   );
@@ -821,7 +838,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(3);
+var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -835,9 +852,14 @@ var Nov0917 = function Nov0917() {
       "section",
       { className: "container full" },
       _react2.default.createElement(
-        "h1",
+        "p",
         null,
-        "aaaaahhhhhhhhhhh"
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies maximus sapien vel porta. Donec sit amet nunc purus. Phasellus ipsum nulla, consequat id lacus ac, tempus convallis risus. Integer vitae pulvinar enim. Pellentesque nunc sem, convallis vitae dui sit amet, iaculis ullamcorper leo. Proin vel libero non nisi molestie fermentum. Quisque ultricies lacinia viverra. Praesent sit amet auctor mauris. Nam blandit gravida sem, vel finibus velit rhoncus at."
+      ),
+      _react2.default.createElement(
+        "p",
+        null,
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies maximus sapien vel porta. Donec sit amet nunc purus. Phasellus ipsum nulla, consequat id lacus ac, tempus convallis risus. Integer vitae pulvinar enim. Pellentesque nunc sem, convallis vitae dui sit amet, iaculis ullamcorper leo. Proin vel libero non nisi molestie fermentum. Quisque ultricies lacinia viverra. Praesent sit amet auctor mauris. Nam blandit gravida sem, vel finibus velit rhoncus at."
       )
     )
   );
@@ -857,7 +879,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(3);
+var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -871,9 +893,14 @@ var Nov1017 = function Nov1017() {
       "section",
       { className: "container full" },
       _react2.default.createElement(
-        "h1",
+        "p",
         null,
-        "aaaaahhhhhhhhhhh"
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies maximus sapien vel porta. Donec sit amet nunc purus. Phasellus ipsum nulla, consequat id lacus ac, tempus convallis risus. Integer vitae pulvinar enim. Pellentesque nunc sem, convallis vitae dui sit amet, iaculis ullamcorper leo. Proin vel libero non nisi molestie fermentum. Quisque ultricies lacinia viverra. Praesent sit amet auctor mauris. Nam blandit gravida sem, vel finibus velit rhoncus at."
+      ),
+      _react2.default.createElement(
+        "p",
+        null,
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies maximus sapien vel porta. Donec sit amet nunc purus. Phasellus ipsum nulla, consequat id lacus ac, tempus convallis risus. Integer vitae pulvinar enim. Pellentesque nunc sem, convallis vitae dui sit amet, iaculis ullamcorper leo. Proin vel libero non nisi molestie fermentum. Quisque ultricies lacinia viverra. Praesent sit amet auctor mauris. Nam blandit gravida sem, vel finibus velit rhoncus at."
       )
     )
   );
@@ -893,7 +920,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(3);
+var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -907,9 +934,14 @@ var Nov1117 = function Nov1117() {
       "section",
       { className: "container full" },
       _react2.default.createElement(
-        "h1",
+        "p",
         null,
-        "aaaaahhhhhhhhhhh"
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies maximus sapien vel porta. Donec sit amet nunc purus. Phasellus ipsum nulla, consequat id lacus ac, tempus convallis risus. Integer vitae pulvinar enim. Pellentesque nunc sem, convallis vitae dui sit amet, iaculis ullamcorper leo. Proin vel libero non nisi molestie fermentum. Quisque ultricies lacinia viverra. Praesent sit amet auctor mauris. Nam blandit gravida sem, vel finibus velit rhoncus at."
+      ),
+      _react2.default.createElement(
+        "p",
+        null,
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies maximus sapien vel porta. Donec sit amet nunc purus. Phasellus ipsum nulla, consequat id lacus ac, tempus convallis risus. Integer vitae pulvinar enim. Pellentesque nunc sem, convallis vitae dui sit amet, iaculis ullamcorper leo. Proin vel libero non nisi molestie fermentum. Quisque ultricies lacinia viverra. Praesent sit amet auctor mauris. Nam blandit gravida sem, vel finibus velit rhoncus at."
       )
     )
   );
@@ -919,50 +951,14 @@ exports.default = Nov1117;
 
 /***/ }),
 
-/***/ 169:
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(3);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Nov1317 = function Nov1317() {
-  return _react2.default.createElement(
-    "div",
-    null,
-    _react2.default.createElement(
-      "section",
-      { className: "container full" },
-      _react2.default.createElement(
-        "h1",
-        null,
-        "aaaaahhhhhhhhhhh"
-      )
-    )
-  );
-};
-
-exports.default = Nov1317;
-
-/***/ }),
-
-/***/ 178:
+/***/ 177:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 340:
+/***/ 339:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(137);
@@ -981,7 +977,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.recentPosts = undefined;
 
-var _react = __webpack_require__(3);
+var _react = __webpack_require__(4);
 
 var _Nov = __webpack_require__(164);
 
@@ -1003,28 +999,34 @@ var _Nov9 = __webpack_require__(168);
 
 var _Nov10 = _interopRequireDefault(_Nov9);
 
-var _Nov11 = __webpack_require__(169);
-
-var _Nov12 = _interopRequireDefault(_Nov11);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var recentPosts = exports.recentPosts = [{
-  title: 'day 6',
-  date: '11.13.2017',
-  loadComponent: (0, _react.createFactory)(_Nov12.default),
-  slug: 'nov1317',
+  title: 'day 5',
+  date: '11.11.2017',
+  loadComponent: (0, _react.createFactory)(_Nov10.default),
+  slug: 'nov1117',
   order: 2,
-  properties: { className: 'black' },
-  imageUrl: 'https://i.imgur.com/VVVQWjB.jpg'
+  properties: { className: 'white' },
+  imageUrl: 'https://i.imgur.com/cS0r3MV.jpg'
 }, {
-  title: 'day 1: intro',
-  date: '11.07.2017',
-  loadComponent: (0, _react.createFactory)(_Nov2.default),
-  slug: 'nov0717',
+  title: 'day 4',
+  date: '11.10.2017',
+  loadComponent: (0, _react.createFactory)(_Nov8.default),
+  slug: 'nov1017',
   order: 1,
   properties: { className: 'white' },
-  imageUrl: 'https://i.imgur.com/VVVQWjB.jpg'
+  imageUrl: 'https://i.imgur.com/0ib9of8.jpg'
+
+}, {
+  title: 'day 3',
+  date: '11.09.2017',
+  loadComponent: (0, _react.createFactory)(_Nov6.default),
+  slug: 'nov0917',
+  order: 0,
+  properties: { className: 'grey' },
+  imageUrl: 'https://i.imgur.com/GJBFwof.jpg'
+
 }];
 
 exports.default = [{
@@ -1034,7 +1036,7 @@ exports.default = [{
   slug: 'nov1117',
   order: 4,
   properties: { className: 'white' },
-  imageUrl: 'https://i.imgur.com/VVVQWjB.jpg'
+  imageUrl: 'https://i.imgur.com/cS0r3MV.jpg'
 }, {
   title: 'day 4',
   date: '11.10.2017',
@@ -1042,16 +1044,16 @@ exports.default = [{
   slug: 'nov1017',
   order: 3,
   properties: { className: 'white' },
-  imageUrl: 'https://i.imgur.com/VVVQWjB.jpg'
+  imageUrl: 'https://i.imgur.com/0ib9of8.jpg'
 
 }, {
   title: 'day 3',
   date: '11.09.2017',
   loadComponent: (0, _react.createFactory)(_Nov6.default),
   slug: 'nov0917',
-  order: 0,
+  order: 2,
   properties: { className: 'grey' },
-  imageUrl: 'https://i.imgur.com/VVVQWjB.jpg'
+  imageUrl: 'https://i.imgur.com/GJBFwof.jpg'
 
 }, {
   title: 'day 2',
@@ -1059,16 +1061,16 @@ exports.default = [{
   loadComponent: (0, _react.createFactory)(_Nov4.default),
   slug: 'nov0817',
   order: 1,
-  properties: { className: 'white' },
-  imageUrl: 'https://i.imgur.com/VVVQWjB.jpg'
+  properties: { className: 'black' },
+  imageUrl: 'https://i.imgur.com/oMMIsku.jpg'
 
 }, {
   title: 'day 1: intro',
   date: '11.07.2017',
   loadComponent: (0, _react.createFactory)(_Nov2.default),
   slug: 'nov0717',
-  order: 2,
-  properties: { className: 'black' },
+  order: 0,
+  properties: { className: 'white' },
   imageUrl: 'https://i.imgur.com/VVVQWjB.jpg'
 
 }];
@@ -1087,7 +1089,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _react = __webpack_require__(3);
+var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -1147,5 +1149,5 @@ exports.default = Card;
 
 /***/ })
 
-},[340]);
-//# sourceMappingURL=app.9ed5400ed08957d376a6.js.map
+},[339]);
+//# sourceMappingURL=app.3159bfa0c4ea5bb0a244.js.map
